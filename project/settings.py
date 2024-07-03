@@ -15,6 +15,7 @@ from django.contrib.messages import constants as messages
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 import psycopg2_binary
+import psycopg2
 
 
 SECRET_KEY = 'django-insecure-y-it&0w78hf(9sk+7c_0vjfug$%sl*dk^_&-lehm20e-h-%e!z'
